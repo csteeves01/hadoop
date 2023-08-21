@@ -44,6 +44,3 @@ jobs:
 
       # run tests!
       - run: gradle test
-
-      # run Snyk scan
-      - run snyk monitor --all-projects --org=1fe1a35e-406a-46bb-b390-4f408c95321b
